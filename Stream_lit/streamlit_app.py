@@ -51,7 +51,7 @@ if st.button("Predict"):
     data = json.dumps({"features": user_options}, indent=2)
 
     # API endpoint URL
-    api_url = "http://localhost:8000/predict"  # Change this to your deployed API URL if necessary
+    api_url = "https://sea-lion-app-rea3s.ondigitalocean.app/predict"  # Change this to your deployed API URL if necessary
 
     # Send request to the FastAPI model
     try:
